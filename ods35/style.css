@@ -1,0 +1,214 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body #acceuilPc{
+  background-image:url(/img/workplace-1245776_1920.jpg);
+  width: 93em;
+  height: 70em;
+}
+#texteSurImage{
+  display: flex;
+  flex-wrap: wrap;
+}
+.colorfond{
+  position: relative;
+  font-size: 1em;
+  background: linear-gradient(to bottom right,#5AD0DA, #7CD17B);
+  top: 800px;
+  margin: 10px 150px ;
+  padding: 0.5em;
+  color: white;
+}
+
+
+#texteverthaut{
+  font-size: 1.4em;
+  position: relative;
+  margin: 50px 150px ;
+  padding: 0.5em;
+  border-left: 0.5em solid #7CD17B;
+}
+
+
+#temoignage{
+  height: 25em;
+  background-image: url(/img/writing-828911_1920.jpg);
+  background-size: cover;
+  background-position:20%;
+}
+#temoignage #paragrapge{
+  position:absolute;
+  color: black;
+  margin: 70px;
+  font-size: 2em;
+  padding: 15px 60px;
+  font-weight: bold;
+}
+#temoignage #guillemet1{
+  float: left;
+  color: black;
+  font-size: 5em;
+  margin: 50px;
+}
+#temoignage #guillemet2{
+  float: right;
+  color: black;
+  font-size: 5em;
+  margin: 50px;
+}
+
+
+#actu h2{
+background-color: black;
+color: white;
+font-size: 2em;
+border-radius: 0px 50px 0 0px;
+padding: 30px;
+margin: 30px 900px 30px 150px; 
+}
+
+
+body #actu #imgart1{
+  height: 30%;
+  width: 30%;
+  border-radius: 30px;
+  margin-left: 10%;
+}
+#article1{
+  background-color: #5AD0DA; 
+  width: 28%;
+  padding: 1% 0 4% 0%;
+  margin-left: 11%;
+  border-radius: 0px 0px 10px 10px ;
+}
+.titreArticle{
+  color: white;
+  margin: 55px;
+}
+body #actu p{
+  color: white;
+  padding: 20px;
+}
+body #actu button{
+  float: right;
+  margin: 1% 6% ;
+  color: white;
+  background-color: black;
+  padding: 3%;
+  border-radius:20px ;
+  font-size: 70%;
+}
+
+#articleSuite{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+}
+#articleSuite #imgart2{
+  float: right;  
+  width: 300px;
+  padding: 2%;
+ 
+}
+ #article2{
+  position: absolute ;
+ width: 30%;
+  margin-left: 20.6em;
+  margin-top: 1.8em;
+  padding: 3.6%;
+  background-color:#5AD0DA ;
+}
+
+
+#lesActeurs{
+  font-size: 1.6em;
+  background-color: black;
+  color: white;
+  border-radius: 0px 50px 0 0px;
+  padding: 30px;
+  margin: 550px 900px 30px 150px; 
+}
+#bandeau{
+  background: linear-gradient(to bottom right,#5AD0DA, #7CD17B);
+  padding: 20%;
+}
+#organisation{
+
+}
+#Membres{
+  background-color: black;
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  margin: 2% 40% 2% 40%;
+  padding: 10px;
+}
+form {
+  color: white;
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background: linear-gradient(to bottom right,#5AD0DA, #7CD17B);
+}
+form p{
+  text-align: center;
+  padding: 2% 10% 6% 2%;
+  
+  font-size: 30px;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  background: linear-gradient(to bottom right,#5AD0DA, #7CD17B);
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+    height: 5em; 
+}
+
+#button {
+padding-left: 90px; 
+color: white;
+margin-left: .5em;
+padding: 3%;
+background: linear-gradient(to bottom right,#5AD0DA, #7CD17B);
+border: 1px solid white;
+border-radius: 5px;
+}
+
+footer{
+  margin-top: 2%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 4% 30%;
+  background-color: black;
+  color: white;
+
+}
+
