@@ -9,44 +9,53 @@
 </head>
 
 <body>
-    <div id="acceuilPc">
-        <h1 id="texteSurImage">
-            <span class="colorfond">Observer,écouter, échanger, analyser, chercher des
-                solutions, </span>
-            <span class="colorfond"> l'observatoire du dialogue social d'ille
-                et vilaine </span>
-            <span class="colorfond">est présent a vos coté.</span>
-        </h1>
-    </div>
-    <div id="texteverthaut">
-        <p>L’Observatoire d’Analyses et d’Appui au Dialogue Social d'Ille-et-Vilaine est un
-            facilitateur du dialogue social, en priorité, pour les entreprises de moins de 50
-            salariés.</p>
-    </div>
-    <div id="temoignage">
-        <span id="guillemet1">"</span>
-        <p id="paragrapge">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <span id='guillemet2'>"</span>
-    </div>
+    
+    <header>
+        <div id="acceuilPc">
+            <h1 id="texteSurImage">
+                <span class="colorfond">Observer,écouter, échanger, analyser, chercher des
+                    solutions, </span>
+                <span class="colorfond"> l'observatoire du dialogue social d'ille
+                    et vilaine </span>
+                <span class="colorfond">est présent a vos coté.</span>
+            </h1>
+        </div>
+    </header>
 
-    <div id="actu">
-        <h2>
-            L'actualité
-        </h2>
+    <main>
+        <div id="texteverthaut">
+            <p>L’Observatoire d’Analyses et d’Appui au Dialogue Social d'Ille-et-Vilaine est un
+                facilitateur du dialogue social, en priorité, pour les entreprises de moins de 50
+                salariés.</p>
+        </div>
+        <section id="temoignage">
+            <span id="guillemet1">"</span>
+            <p id="paragrapge">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit
+                in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <span id='guillemet2'>"</span>
+        </section>
 
-        <img id="imgart1" src="img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" alt="photo de l'article 1">
-        <article id="article1">
-            <span class="titreArticle">Titre de l'article</span>
-            <span class="titreArticle">01/12/2020</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation um.</p>
-            <button>Voir l'article</button>
-        </article>
-    </div>
+        <!-- SECTION ACTUALITES  -->
+
+        <div id="actu">
+            <h2>
+                L'actualité
+            </h2>
+
+            <img id="imgart1" src="img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" alt="photo de l'article 1">
+            <article id="article1">
+                <span class="titreArticle">Titre de l'article</span>
+                <span class="titreArticle">01/12/2020</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation um.</p>
+                <button>Voir l'article</button>
+            </article>
+        </div>
         <div id="articleSuite">
             <img id="imgart2" src="img/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg" alt="photo de l'article 1">
             <article id="article2">
@@ -66,46 +75,54 @@
                 <button>Voir l'article</button>
             </article>
         </div>
-    
-    <div id="lesActeurs">
-        <h2>
-            Les acteurs
-        </h2>
-    </div>
-    <div id="bandeau"></div>
-    <div id="organisations">
-     <img src="" alt="">
-    </div>
 
-    <section id="Membres">
-    <h3>découvrir nos membres</h3>
-</section>
+        <!-- LES ACTEURS -->
 
-<form action="/ma-page-de-traitement" method="post">
-    <p>Contacter-nous</p>
-    <div>
-        <label for="name">Nom :</label>
-        <input type="text" id="name" name="user_name">
-    </div>
-    <div>
-        <label for="mail">e-mail :</label>
-        <input type="email" id="mail" name="user_mail">
-    </div>
-    <div>
-        <label for="msg">Message :</label>
-        <textarea id="msg" name="user_message"></textarea>
-    </div>
-    <div id="button">
-        <button type="submit">Envoyer le message</button>
-    </div>
-</form>
-<footer>
-<p>Mention légales</p>
-<p>Politique de confidentialité</p>
-<p>Actualité</p>
-<p>Contacts</p>
+        <div id="lesActeurs">
+            <h2>
+                Les acteurs
+            </h2>
+        </div>
+        <div id="bandeau"></div>
+        <div id="organisations">
+            <img src="" alt="">
+        </div>
 
-</footer>
+        <div id="Membres">
+            <h3>découvrir nos membres</h3>
+        </div>
+
+        <!-- FORMUALIRE DE CONTACT  -->
+
+        <form action="/ma-page-de-traitement" method="post">
+            <p>Contacter-nous</p>
+            <div>
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="mail">e-mail :</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+                <label for="msg">Message :</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </div>
+            <div id="button">
+                <button type="submit">Envoyer le message</button>
+            </div>
+        </form>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>Mention légales</p>
+        <p>Politique de confidentialité</p>
+        <p>Actualité</p>
+        <p>Contacts</p>
+    </footer>
+
 </body>
 
 </html>

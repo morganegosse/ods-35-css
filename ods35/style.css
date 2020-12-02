@@ -3,6 +3,8 @@
   margin: 0;
   box-sizing: 0;
 }
+/* ................HEADER................*/
+
 body #acceuilPc{
   background-image:url(/img/workplace-1245776_1920.jpg);
   width: 93em;
@@ -22,6 +24,9 @@ body #acceuilPc{
   color: white;
 }
 
+/*................MAIN..................*/
+
+/*................Chapeau..................*/
 
 #texteverthaut{
   font-size: 1.4em;
@@ -31,6 +36,7 @@ body #acceuilPc{
   border-left: 0.5em solid #7CD17B;
 }
 
+/*................Temoignage..................*/
 
 #temoignage{
   height: 25em;
@@ -59,6 +65,7 @@ body #acceuilPc{
   margin: 50px;
 }
 
+/*................Actualités..................*/
 
 #actu h2{
 background-color: black;
@@ -121,6 +128,7 @@ body #actu button{
   background-color:#5AD0DA ;
 }
 
+/*................Les acteurs..................*/
 
 #lesActeurs{
   font-size: 1.6em;
@@ -137,6 +145,7 @@ body #actu button{
 #organisation{
 
 }
+
 #Membres{
   background-color: black;
   font-size: 1em;
@@ -147,6 +156,9 @@ body #actu button{
   margin: 2% 40% 2% 40%;
   padding: 10px;
 }
+
+/*................Formulaire de contact..................*/
+
 form {
   color: white;
   margin: 0 auto;
@@ -200,6 +212,8 @@ background: linear-gradient(to bottom right,#5AD0DA, #7CD17B);
 border: 1px solid white;
 border-radius: 5px;
 }
+
+/*................FOOTER..................*/
 
 footer{
   margin-top: 2%;
